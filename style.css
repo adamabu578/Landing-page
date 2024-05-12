@@ -1,0 +1,652 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+/* navbar  style starts */
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 30px;
+  margin-right: 70px;
+  margin-top: 10px;
+  /* border: 1px solid red; */
+}
+
+.logo-image {
+  width: 50px;
+  height: 50px;
+  /* margin-right: auto; */
+  /* border: 1px solid green; */
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.nav-links {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid blue; */
+}
+.nav-item {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.home {
+  color: blueviolet;
+}
+.nav-button {
+  border: 1px solid blueviolet;
+  margin-left: 30px;
+  margin-right: 10px;
+  margin-top: 2px;
+  padding: 15px;
+  border-radius: 5px;
+}
+.nav-button a {
+  text-decoration: none;
+}
+
+/* nav-bar ends */
+
+/* new section */
+.section {
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 60px;
+  align-items: center;
+  background-color: aliceblue;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  width: 100%;
+}
+.section-1 {
+  flex: 0.5;
+  background-color: aliceblue;
+}
+.section-1 p {
+  margin-bottom: 10px;
+  background-color: aliceblue;
+}
+.section-1 span {
+  color: blueviolet;
+  font-size: 50px;
+  line-height: 20px;
+  margin-bottom: 10px;
+  background-color: aliceblue;
+}
+.section-1 h2 {
+  font-size: 50px;
+  margin-bottom: 10px;
+  background-color: aliceblue;
+}
+.section-2 {
+  flex: 0.5;
+  background-color: aliceblue;
+}
+.section-2 > img {
+  width: 100%;
+  background-color: aliceblue;
+}
+.section-1 > .btn {
+  background-color: blueviolet;
+  padding: 18px;
+  border: blueviolet;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+/* my skills */
+
+.skills {
+  margin: auto;
+  padding: 10px;
+  align-content: center;
+}
+.header {
+  padding: 30px;
+  margin: auto;
+  /* border: 1px solid yellow; */
+  margin-top: 20px;
+}
+.card {
+  display: flex;
+  padding: 50px;
+  margin: auto;
+  justify-items: center;
+  /* border: 1px solid red; */
+  gap: 10px;
+}
+.card1 {
+  padding: 20px;
+  background: aliceblue;
+  border-radius: 5px;
+  border-bottom: 2px solid blue;
+  justify-items: center;
+  /* border: 1px solid red;?\ */
+  gap: 10px;
+}
+.card1 h1 {
+  background: aliceblue;
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-family: sans-serif;
+}
+.card1 p {
+  background: aliceblue;
+  font-size: 15px;
+}
+.card2 {
+  padding: 20px;
+  background: aliceblue;
+  border-radius: 5px;
+  /* border-bottom: 2px solid blue; */
+  justify-items: center;
+  /* border: 1px solid red;?\ */
+  gap: 10px;
+}
+.card2 h1 {
+  background: aliceblue;
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-family: sans-serif;
+}
+.card2 p {
+  background: aliceblue;
+  font-size: 15px;
+}
+.card3 {
+  padding: 20px;
+  background: aliceblue;
+  border-radius: 5px;
+  /* border-bottom: 2px solid blue; */
+  justify-items: center;
+  /* border: 1px solid red;?\ */
+  gap: 10px;
+}
+.card3 h1 {
+  background: aliceblue;
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-family: sans-serif;
+}
+.card3 p {
+  background: aliceblue;
+  font-size: 15px;
+}
+.card4 {
+  padding: 20px;
+  background: aliceblue;
+  border-radius: 5px;
+  /* border-bottom: 2px solid blue; */
+  justify-items: center;
+  /* border: 1px solid red;?\ */
+  gap: 10px;
+}
+.card4 h1 {
+  background: aliceblue;
+  background: aliceblue;
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-family: sans-serif;
+}
+.card4 p {
+  background: aliceblue;
+  font-size: 15px;
+}
+.card i {
+  /* border: 1px solid blueviolet; */
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px rgb(222, 216, 216), 1px 1px 1px rgb(255, 255, 255),
+    1px 1px 1px rgb(211, 198, 198), 1px 1px 1px rgb(255, 255, 255);
+}
+.about-section {
+  /* width: 100%; */
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+  justify-content: space-around;
+  align-items: center;
+}
+.about-image {
+  flex: 0.4;
+  padding: 15px;
+}
+.about-image > img {
+  width: 400px;
+  height: 400px;
+  margin: 15px;
+}
+.About-Me {
+  flex: 0.6;
+  padding: 15px;
+  font-family: sans-serif;
+}
+.About-Me h2 {
+  margin-bottom: 20px;
+  font-family: sans-serif;
+}
+.container {
+  width: 100%;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  gap: 900px;
+  font-family: sans-serif;
+}
+.portfolio h5 {
+  margin-bottom: 10px;
+}
+
+.button {
+  background-color: white;
+}
+.portfolio-btn {
+  margin-top: 20px;
+  margin-right: 20px;
+  width: 300px;
+}
+.portfolio-btn .btn {
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: crimson;
+  font-size: 15px;
+}
+.box1 > img {
+  width: 300px;
+}
+.box2 > img {
+  width: 300px;
+}
+.box3 > img {
+  width: 300px;
+}
+.portfolio-Box {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.portfolio-Box h1 {
+  margin-top: 10px;
+}
+.portfolio-Box p {
+  margin-top: 10px;
+}
+.Arrow-btn {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-bottom: 1px solid blue;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.box1 {
+  box-shadow: 1px 1px 1px rgb(222, 216, 216), 1px 1px 1px rgb(255, 255, 255),
+    1px 1px 1px rgb(211, 198, 198), -1px -1px 1px rgb(255, 255, 255);
+}
+.box2 {
+  box-shadow: 1px 1px 1px rgb(222, 216, 216), 1px 1px 1px rgb(255, 255, 255),
+    1px 1px 1px rgb(211, 198, 198), -1px -1px 1px rgb(255, 255, 255);
+}
+.box3 {
+  box-shadow: 1px 1px 1px rgb(222, 216, 216), 1px 1px 1px rgb(255, 255, 255),
+    1px 1px 1px rgb(211, 198, 198);
+}
+.customer-testimonial {
+  padding-top: 50px;
+  margin-top: 50px;
+  background-color: aliceblue;
+  width: 100%;
+}
+.Testimonial {
+  margin-top: 30px;
+  background-color: aliceblue;
+  margin-left: 20px;
+}
+.Testimonial p {
+  background-color: aliceblue;
+  margin-bottom: 10px;
+}
+.Testimonial h1 {
+  background-color: aliceblue;
+}
+
+.testimonial-card1 {
+  border: 1px solid green;
+  background-color: aliceblue;
+  padding: 16px;
+  border-radius: 5px;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+  height: 150px;
+}
+.testimonial-card1 > span {
+  margin-bottom: 30px;
+  background-color: aliceblue;
+}
+.testimonial-cards {
+  display: flex;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding: 16px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  background-color: aliceblue;
+  margin-top: 50px;
+  margin-top: 5px;
+}
+.testimonial-card1 > img {
+  width: 50px;
+}
+.testimonial-card1 p {
+  background-color: aliceblue;
+  margin-top: 5px;
+  font-size: 15px;
+}
+.testimonial-card1 h5 {
+  background-color: aliceblue;
+}
+.Testimonial-content {
+  display: flex;
+  background-color: aliceblue;
+  margin-top: 20px;
+}
+.Testimonial-content > img {
+  width: 50px;
+  background-color: aliceblue;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.testimonial-card2 {
+  border: 1px solid green;
+  background-color: aliceblue;
+  padding: 16px;
+  border-radius: 5px;
+  width: 300px;
+  height: 150px;
+}
+.testimonial-card2 > span {
+  margin-bottom: 50px;
+  background-color: aliceblue;
+}
+.testimonial-card2 > img {
+  width: 50px;
+}
+.testimonial-card2 p {
+  background-color: aliceblue;
+  margin-top: 5px;
+}
+.testimonial-card2 h5 {
+  background-color: aliceblue;
+}
+.Testimonial-content {
+  display: flex;
+}
+.testimonial-card3 {
+  border: 1px solid green;
+  background-color: aliceblue;
+  padding: 16px;
+  border-radius: 5px;
+  width: 300px;
+  height: 150px;
+}
+.testimonial-card3 > span {
+  margin-bottom: 50px;
+  background-color: aliceblue;
+}
+.testimonial-card3 > img {
+  width: 10px;
+}
+.testimonial-card3 p {
+  background-color: aliceblue;
+}
+.testimonial-card3 h5 {
+  background-color: aliceblue;
+}
+.Testimonial-content {
+  display: flex;
+}
+.testimonial-card3 p {
+  margin-top: 5px;
+}
+.testimonial-cards i {
+  background-color: aliceblue;
+  color: green;
+  margin-bottom: 10px;
+}
+.testi-content {
+  background: none;
+}
+
+.contact {
+  margin-top: 20px;
+}
+.contact-content {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.contact-content .get {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+.contact-content p {
+  margin-top: 10px;
+  font-size: small;
+  margin-bottom: 10px;
+}
+.contact-form {
+  display: flex;
+  margin-top: 20px;
+  margin: 10px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+}
+.contact-form label {
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+}
+.form1 {
+  width: 200px;
+  border: 1px solid blue;
+  border-radius: 3px;
+  padding: 5px;
+  height: 18px;
+}
+.form2 {
+  width: 200px;
+  border: 1px solid blue;
+  border-radius: 3px;
+  padding: 5px;
+  height: 18px;
+}
+.form3 {
+  width: 200px;
+  border: 1px solid blue;
+  border-radius: 3px;
+  padding: 5px;
+  flex-direction: row;
+  display: flex;
+  height: 18px;
+}
+.side-form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.side-form .form3 {
+  display: flex;
+}
+.side-form-1 {
+  display: flex;
+}
+.form4 {
+  width: 200px;
+  border: 1px solid blue;
+  border-radius: 3px;
+  padding: 5px;
+  height: 18px;
+  display: flex;
+}
+.input2 {
+  margin-top: 15px;
+}
+.input4 {
+  margin-top: 15px;
+}
+.input1 {
+  margin-left: 8px;
+}
+.input3 {
+  margin-left: 8px;
+}
+.form5 {
+  width: 430px;
+  border: 1px solid blue;
+  border-radius: 3px;
+  padding: 5px;
+  height: 15px;
+  display: flex;
+}
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+}
+.text {
+  background-color: black;
+}
+.form6 {
+  width: 430px;
+  border: 1px solid blue;
+  border-radius: 3px;
+  padding: 5px;
+  height: 100px;
+  display: flex;
+}
+.form-Text-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+}
+.input6 {
+  margin-top: 20px;
+}
+.input6 .label {
+  font-size: 15px;
+}
+.check-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.check {
+  margin-right: 260px;
+  margin-top: 15px;
+}
+.form-btn .submit-text {
+  background-color: blueviolet;
+  margin-left: 30px;
+  margin-right: 10px;
+  margin-top: 2px;
+  padding: 15px;
+  border-radius: 5px;
+}
+.form-btn {
+  border: 1px solid blueviolet;
+  margin: 0 20px;
+  height: 30px;
+  width: 100px;
+  border-radius: 5px;
+  background-color: blueviolet;
+  margin-top: 20px;
+}
+.submit-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-section img {
+  width: 50px;
+  background-color: aliceblue;
+}
+.footer-section {
+  background-color: aliceblue;
+  /* border: 1px solid brown; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* margin-left: 30px; */
+  margin-right: 70px;
+  margin-top: 40px;
+  width: 100%;
+}
+.footer-section .logo-footer {
+  background-color: aliceblue;
+}
+.footer-nav {
+  background-color: aliceblue;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 600px;
+  margin-left: 60px;
+}
+.line {
+  padding: 40px;
+  /* width: 1150px; */
+  /* margin-right: 10px; */
+  background-color: black;
+}
+.footer-icons {
+  margin-right: 40px;
+}
+.footer-icons i {
+  margin-left: 5px;
+}
+.footer-img {
+  margin-left: 10px;
+  background-color: aliceblue;
+}
+.footer-terms {
+  background-color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 70px;
+  width: 100%;
+}
+.terms {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.terms-condition {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 400px;
+  margin-top: 30px;
+}
